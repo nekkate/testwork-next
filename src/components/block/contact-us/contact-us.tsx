@@ -1,30 +1,35 @@
 import { FC } from "react";
 import Image from "next/image";
-import { StyledContainer, StyledList, StyledListItem, StyledSubtitle } from "./styled";
+import {
+  StyledContainer,
+  StyledList,
+  StyledListItem,
+  StyledSubtitle,
+} from "./styled";
 
-export const ContactUs : FC =() => {
-    const socialList = [
-        {
-          name: "VK",
-          link: "/",
-          src: "vk.svg",
-        },
-        {
-          name: "YouTube",
-          link: "/setting",
-          src: "youtube.svg",
-        },
-        {
-          name: "Telegram",
-          link: "/wallet",
-          src: "telegram.svg",
-        },
-      ];
+export const ContactUs: FC = () => {
+  const socialList = [
+    {
+      name: "VK",
+      link: "/",
+      src: "vk.svg",
+    },
+    {
+      name: "YouTube",
+      link: "/setting",
+      src: "youtube.svg",
+    },
+    {
+      name: "Telegram",
+      link: "/wallet",
+      src: "telegram.svg",
+    },
+  ];
 
-    return(
-        <StyledContainer>
-        <StyledSubtitle>Contact Us:</StyledSubtitle>
-        <StyledList>
+  return (
+    <StyledContainer>
+      <StyledSubtitle>Contact Us:</StyledSubtitle>
+      <StyledList>
         {socialList.map((item) => {
           return (
             <StyledListItem key={item.name}>
@@ -32,7 +37,7 @@ export const ContactUs : FC =() => {
             </StyledListItem>
           );
         })}
-        </StyledList>
-      </StyledContainer>
-    )
-}
+      </StyledList>
+    </StyledContainer>
+  );
+};

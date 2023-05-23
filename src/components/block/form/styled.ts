@@ -129,8 +129,7 @@ export const StyledBalanceTitle = styled.span`
   margin-bottom: 19px;
 `;
 
-
 export const StyledUpdateDate = styled.li`
-justify-content: center;
-display: flex;
-`
+  justify-content: center;
+  display: flex;
+`;

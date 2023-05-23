@@ -4,11 +4,16 @@ import { Form } from "../form/form";
 import { InputForm } from "../form/input-form";
 import { TitleMain } from "../intro-wrapper/styled";
 
-import { ITypeWalletData, ITypeAccountProps, ITypeFormBalance, ITypeIconForm, ITypeFormInput } from "../form/types";
+import {
+  ITypeWalletData,
+  ITypeFormBalance,
+  ITypeIconForm,
+  ITypeFormInput,
+} from "../form/types";
 import { StyledUl } from "./styled";
 import { BalanceForm } from "../form/balance-form";
 
-export const WalletWraper: FC = () => {
+export const WalletWrapper: FC = () => {
   const FormatProps: ITypeWalletData = {
     icon: {
       nameSpan: "Wallet KD27801",

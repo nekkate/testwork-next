@@ -8,7 +8,7 @@ import {
   StyledSelect,
   StyledFormOption,
   StyledSelectContainer,
-  StyledUpdateDate
+  StyledUpdateDate,
 } from "./styled";
 
 export interface OptionProps {
@@ -55,7 +55,6 @@ export const OptionForm: FC<OptionProps> = (item: OptionProps) => {
   const [time, setTime] = useState(
     getFormattedTime(new Date(), item.items[0].value)
   );
-
   const updateFormat = () => {
     const date = new Date();
     const timeFormat = item.items[0].value;
@@ -65,7 +64,17 @@ export const OptionForm: FC<OptionProps> = (item: OptionProps) => {
   };
 
   useEffect(
-    updateFormat,
+    () => {
+      updateFormat();
+    },
+    item.items.map((x) => x.value)
+  );
+
+  useEffect(
+    () => {
+      const id = setInterval(updateFormat, 1000);
+      return () => clearInterval(id);
+    },
     item.items.map((x) => x.value)
   );
 

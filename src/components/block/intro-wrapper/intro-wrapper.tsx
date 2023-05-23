@@ -1,16 +1,16 @@
-import { FC } from "react"
-import { Container } from "@/components/ui/elements/container"
-import { Img, CustomStyledContainer, TitleMain, SectionIntro } from "./styled"
+import { FC } from "react";
+import { Container } from "@/components/ui/elements/container";
+import { Img, CustomStyledContainer, TitleMain, SectionIntro } from "./styled";
 
-export const IntroWrapper : FC = () => {
-return (
+export const IntroWrapper: FC = () => {
+  return (
     <SectionIntro>
       <Container>
-      <TitleMain>Main</TitleMain> 
+        <TitleMain>Main</TitleMain>
       </Container>
-        <CustomStyledContainer>
+      <CustomStyledContainer>
         <Img src="bg-image-main.jpg" alt="Girl with phone seeing." />
-        </CustomStyledContainer>
+      </CustomStyledContainer>
     </SectionIntro>
-)
-}
+  );
+};

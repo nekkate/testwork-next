@@ -3,7 +3,6 @@ import { Header } from "@/components/block/header/header";
 import { GlobalStyles } from "@/styles/global";
 import { defaultTheme } from "@/styles/theme";
 import type { AppProps } from "next/app";
-import Head from "next/head";
 import { ThemeProvider } from "styled-components";
 
 export default function App({ Component, pageProps }: AppProps) {

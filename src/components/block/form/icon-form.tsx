@@ -13,7 +13,13 @@ export const IconForm: FC<IconProps> = (item: IconProps) => {
     <>
       <StyledDivIcon>
         <StyledContainerImg>
-          <Image src={item.items.src} width={item.items.width} height={item.items.height} alt={item.items.alt} priority={true}/>
+          <Image
+            src={item.items.src}
+            width={item.items.width}
+            height={item.items.height}
+            alt={item.items.alt}
+            priority={true}
+          />
         </StyledContainerImg>
         <StyledText>{item.items.nameSpan}</StyledText>
       </StyledDivIcon>

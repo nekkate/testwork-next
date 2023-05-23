@@ -3,23 +3,22 @@ import styled from "styled-components";
 import { section } from "@/components/ui/elements/section";
 
 export const SectionIntro = styled(section)`
-margin-bottom: 174px;
-`
+  margin-bottom: 174px;
+`;
 
 export const CustomStyledContainer = styled.div`
- display: block;
+  display: block;
   justify-content: center;
   align-items: center;
   position: relative;
   object-fit: contain;
-`
+`;
 
 export const TitleMain = styled(title)`
-margin-bottom: 33px;
-`
+  margin-bottom: 33px;
+`;
 
 export const Img = styled.img`
-width: 100%;
-height: 100%;
-`
-
+  width: 100%;
+  height: 100%;
+`;

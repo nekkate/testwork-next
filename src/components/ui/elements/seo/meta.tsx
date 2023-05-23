@@ -14,6 +14,7 @@ export const Meta: FC<PropsWithChildren<IMeta>> = ({
     <>
       <Head>
         <title>{getTitle(title)}</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico"></link>
         {description ? (
           <>
             <meta name="description" content={description} />

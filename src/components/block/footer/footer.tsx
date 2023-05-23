@@ -1,16 +1,11 @@
 import { FC } from "react";
-import {
-  StyledContainer,
-  StyledSection,
-  StyledText
-} from "./styles";
+import { StyledContainer, StyledSection, StyledText } from "./styles";
 import { ContactUs } from "../contact-us/contact-us";
-import { Container } from "@/components/ui/elements/container";
 
 export const Footer: FC = () => {
   return (
-    <StyledSection as='footer'>
-        <StyledContainer>
+    <StyledSection as="footer">
+      <StyledContainer>
         <StyledText>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -20,7 +15,7 @@ export const Footer: FC = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </StyledText>
-      <ContactUs></ContactUs>
+        <ContactUs></ContactUs>
       </StyledContainer>
     </StyledSection>
   );

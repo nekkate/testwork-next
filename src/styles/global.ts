@@ -32,5 +32,4 @@ body {
     text-decoration: none;
     color: inherit;
   }
-`
-
+`;

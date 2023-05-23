@@ -2,7 +2,6 @@ import { li } from "@/components/ui/elements/li";
 import { ul } from "@/components/ui/elements/ul";
 import styled from "styled-components";
 
-
 export const NavUl = styled(ul)`
   display: flex;
   justify-content: flex-end;

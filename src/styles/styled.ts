@@ -1,14 +1,14 @@
 export interface IStyle {
-    fontSize: string,
-    
-    weight: string,
+  fontSize: string;
 
-    padding: string,
-    margin: string,
+  weight: string;
 
-    display?: string,
+  padding: string;
+  margin: string;
 
-    width: string,
-    height: string,
-    position: string,
-    }
+  display?: string;
+
+  width: string;
+  height: string;
+  position: string;
+}

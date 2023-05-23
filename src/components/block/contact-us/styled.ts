@@ -3,10 +3,10 @@ import { ul } from "@/components/ui/elements/ul";
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
-display: flex;
-flex-direction: column;
-margin-right: 5%;
-`
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+`;
 
 export const StyledList = styled(ul)`
   display: flex;

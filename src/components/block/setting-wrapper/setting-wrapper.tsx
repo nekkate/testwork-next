@@ -45,8 +45,8 @@ export const SettingWrapper: FC = () => {
       },
     ] as ITypeFormInput[],
   };
-  const [timeFormat, setTimeFormat] = useState(TimeFormats.twenty as string)
-  const [dateFormat, setDateFormat] = useState(DateFormats.yearFirst as string)
+  const [timeFormat, setTimeFormat] = useState(TimeFormats.twenty as string);
+  const [dateFormat, setDateFormat] = useState(DateFormats.yearFirst as string);
 
   const FormatProps: ITypeFormatData = {
     icon: {
@@ -60,22 +60,16 @@ export const SettingWrapper: FC = () => {
       {
         key: 10,
         spanName: "Time format",
-        ariaLabels: [
-          TimeFormats.twenty,
-          TimeFormats.twelve
-        ],
+        ariaLabels: [TimeFormats.twenty, TimeFormats.twelve],
         value: timeFormat,
-        onChange: (value) => setTimeFormat(value)
+        onChange: (value) => setTimeFormat(value),
       },
       {
         key: 11,
         spanName: "Date format",
-        ariaLabels: [
-          DateFormats.yearFirst,
-          DateFormats.dayFirst
-        ],
+        ariaLabels: [DateFormats.yearFirst, DateFormats.dayFirst],
         value: dateFormat,
-        onChange: (value) => setDateFormat(value) 
+        onChange: (value) => setDateFormat(value),
       },
     ] as ITypeFormOption[],
   };
@@ -89,7 +83,7 @@ export const SettingWrapper: FC = () => {
             <InputForm items={AccountProps.inputs}></InputForm>
           </Form>
           <Form icon={FormatProps.icon}>
-              <OptionForm items={FormatProps.options}></OptionForm>
+            <OptionForm items={FormatProps.options}></OptionForm>
           </Form>
         </StyledUl>
       </Container>

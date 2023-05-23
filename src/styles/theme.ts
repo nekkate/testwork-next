@@ -20,26 +20,26 @@ export const defaultTheme: ITheme = {
   lineHeightSmall: "15px",
   fontWeight: 400,
   paddingBodyTop: "91px",
-  };
+};
 
 export interface ITheme {
-  colorBlack: string,
-  colorWhisper: string,
-  colorOrange: string,
-  fontFamily: string,
-  colorSnow: string,
-  colorWhite: string,
-  colorHeather: string,
-  colorPattensBlue: string,
-  colorWhisper2: string,
-  colorGainsboro: string,
-  pageWidth: string,
-  fontSizeMain: string,
-  fontSizeTitle: string,
-  lineHeightSmall: string,
-  paddingBodyTop: string,
-  lineHeight: string,
-  lineHeightTitle: string,
-  fontWeight: number,
-  fontSizeSmall: string,
-  }
+  colorBlack: string;
+  colorWhisper: string;
+  colorOrange: string;
+  fontFamily: string;
+  colorSnow: string;
+  colorWhite: string;
+  colorHeather: string;
+  colorPattensBlue: string;
+  colorWhisper2: string;
+  colorGainsboro: string;
+  pageWidth: string;
+  fontSizeMain: string;
+  fontSizeTitle: string;
+  lineHeightSmall: string;
+  paddingBodyTop: string;
+  lineHeight: string;
+  lineHeightTitle: string;
+  fontWeight: number;
+  fontSizeSmall: string;
+}

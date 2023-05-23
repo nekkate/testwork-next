@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { Container } from "@/components/ui/elements/container";
 
 export const StyledContainer = styled(Container)`
-display: flex;
-`
+  display: flex;
+`;
 
 export const StyledSection = styled.footer`
   padding: 8px 0 21px 0;
@@ -23,5 +23,5 @@ export const StyledText = styled.p`
   margin-right: 22%;
   max-width: 600px;
   line-height: ${(props) => props.theme.lineHeightSmall};
-  font-size: ${(props) => props.theme.fontSizeSmall}
+  font-size: ${(props) => props.theme.fontSizeSmall};
 `;
