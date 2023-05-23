@@ -87,7 +87,7 @@ export const StyledSelectContainer = styled.div`
   position: relative;
 
   &:after {
-    content: url(/arrow-select.svg);
+    content: url(arrow-select.svg);
     width: 14px;
     height: 12px;
     position: absolute;

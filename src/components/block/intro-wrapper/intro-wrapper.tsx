@@ -9,7 +9,7 @@ return (
       <TitleMain>Main</TitleMain> 
       </Container>
         <CustomStyledContainer>
-        <Img src="/bg-image-main.jpg" alt="Девушка с телефоном смотри в даль." />
+        <Img src="bg-image-main.jpg" alt="Girl with phone seeing." />
         </CustomStyledContainer>
     </SectionIntro>
 )
