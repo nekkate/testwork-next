@@ -9,6 +9,8 @@ export const StyledDivIcon = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+
+  
 `;
 
 export const StyledIcon = styled.div`
@@ -29,8 +31,10 @@ export const StyledLabel = styled.label`
   grid-template-columns: 37% 58%;
   column-gap: 5%;
   align-items: center;
-  padding: 7px;
+  padding: 5px;
   border-radius: 5px;
+
+  
 `;
 
 export const StyledFormSpan = styled.span`
@@ -48,11 +52,19 @@ export const StyledFormInput = styled.input`
   &::after {
     color: black;
   }
+
+  @media (max-width: 550px) {
+    font-size: 12px;
+    line-height: 16px;
+  };
 `;
 
 export const StyledText = styled(p)`
   margin-bottom: 37px;
   align-items: center;
+  font-size: 16px;
+  line-height: 19px;
+ 
 `;
 
 export const StyledContainerImg = styled.div`
@@ -106,13 +118,13 @@ export const StyledBalance = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 21px 12px;
-  padding: 9px 20px 20px 9px;
+  padding: 10px 20px 10px 20px;
 `;
 
 export const BalanceDl = styled.dl`
   display: flex;
   justify-content: space-between;
-  padding: 9px 13px;
+  padding: 7px 13px;
 `;
 
 export const BalanceListItem = styled(li)`
@@ -126,7 +138,7 @@ export const BalanceListItem = styled(li)`
 export const StyledBalanceTitle = styled.span`
   display: flex;
   justify-content: center;
-  margin-bottom: 19px;
+  margin-bottom: 12px;
 `;
 
 export const StyledUpdateDate = styled.li`

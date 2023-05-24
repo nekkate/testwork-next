@@ -1,4 +1,5 @@
 import { li } from "@/components/ui/elements/li";
+import { p } from "@/components/ui/elements/p";
 import { ul } from "@/components/ui/elements/ul";
 import styled from "styled-components";
 
@@ -25,6 +26,10 @@ export const StyledListItem = styled(li)`
   }
 `;
 
-export const StyledSubtitle = styled.p`
+export const StyledSubtitle = styled(p)`
   margin-bottom: 17px;
+
+  @media (max-width: 550px) {
+    margin-bottom: 5px;
+  }
 `;

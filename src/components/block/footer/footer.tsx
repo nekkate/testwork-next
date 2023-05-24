@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { StyledContainer, StyledSection, StyledText } from "./styles";
+import { StyledContainer, StyledSection, StyledText } from "./styled";
 import { ContactUs } from "../contact-us/contact-us";
 
 export const Footer: FC = () => {

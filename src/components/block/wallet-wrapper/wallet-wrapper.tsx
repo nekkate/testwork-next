@@ -2,7 +2,7 @@ import { Container } from "@/components/ui/elements/container";
 import { FC } from "react";
 import { Form } from "../form/form";
 import { InputForm } from "../form/input-form";
-import { TitleMain } from "../intro-wrapper/styled";
+
 
 import {
   ITypeWalletData,
@@ -10,7 +10,7 @@ import {
   ITypeIconForm,
   ITypeFormInput,
 } from "../form/types";
-import { StyledUl, StyledSection } from "./styled";
+import { StyledUl, StyledSection, TitleMain } from "./styled";
 import { BalanceForm } from "../form/balance-form";
 
 export const WalletWrapper: FC = () => {
@@ -60,7 +60,7 @@ export const WalletWrapper: FC = () => {
   return (
     <StyledSection>
       <Container>
-        <TitleMain>Wallet</TitleMain>
+        <TitleMain>Wallets</TitleMain>
         <StyledUl>
           <Form icon={FormatProps.icon}>
             <div>

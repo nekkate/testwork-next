@@ -1,7 +1,7 @@
 import { Meta } from "@/components/ui/elements/seo/meta";
 import { WalletPage } from "@/components/screens/home/wallet";
 
-export default function Wallet() {
+export default function Wallets() {
   return (
     <>
       <Meta

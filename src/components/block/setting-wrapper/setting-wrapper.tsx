@@ -1,7 +1,6 @@
 import { FC, useState } from "react";
-import { StyledSection, StyledUl } from "./styled";
+import { StyledSection, StyledUl, TitleMain } from "./styled";
 import { Container } from "@/components/ui/elements/container";
-import { TitleMain } from "../intro-wrapper/styled";
 import { Form } from "../form/form";
 import {
   ITypeAccountData,
@@ -77,7 +76,7 @@ export const SettingWrapper: FC = () => {
   return (
     <StyledSection as="main">
       <Container>
-        <TitleMain>Setting</TitleMain>
+        <TitleMain>Settings</TitleMain>
         <StyledUl>
           <Form icon={AccountProps.icon}>
             <InputForm items={AccountProps.inputs}></InputForm>

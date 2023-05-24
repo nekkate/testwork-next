@@ -16,14 +16,14 @@ export const ContactUs: FC = () => {
       src: "vk.svg",
     },
     {
-      name: "YouTube",
-      link: "https://www.instagram.com/",
-      src: "youtube.svg",
-    },
-    {
       name: "Telegram",
       link: "https://telegram.org",
       src: "telegram.svg",
+    },
+    {
+      name: "YouTube",
+      link: "https://www.instagram.com/",
+      src: "youtube.svg",
     },
   ];
 

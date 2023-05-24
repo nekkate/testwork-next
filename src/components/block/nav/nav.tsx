@@ -19,7 +19,7 @@ export const NavBar: FC = () => {
       link: "/setting",
     },
     {
-      name: "Wallet",
+      name: "Wallets",
       link: "/wallet",
     },
   ];

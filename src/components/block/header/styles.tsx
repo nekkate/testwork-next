@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledSection = styled.header`
   position: relative;
-  padding: 91px 0 9px 0;
+  padding: 100px 0 12px 0;
   max-height: 150px;
   margin-bottom: 33px;
 

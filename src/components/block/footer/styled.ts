@@ -1,12 +1,13 @@
 import styled from "styled-components";
 import { Container } from "@/components/ui/elements/container";
+import { p } from "@/components/ui/elements/p";
 
 export const StyledContainer = styled(Container)`
   display: flex;
 `;
 
 export const StyledSection = styled.footer`
-  padding: 8px 0 21px 0;
+  padding: 10px 0 20px 0;
   position: relative;
 
   &:before {
@@ -19,9 +20,8 @@ export const StyledSection = styled.footer`
   }
 `;
 
-export const StyledText = styled.p`
-  margin-right: 22%;
-  max-width: 600px;
-  line-height: ${(props) => props.theme.lineHeightSmall};
-  font-size: ${(props) => props.theme.fontSizeSmall};
+export const StyledText = styled(p)`
+  margin-right: 14%;
+  max-width: 590px;
+
 `;

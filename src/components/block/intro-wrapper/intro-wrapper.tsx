@@ -6,10 +6,10 @@ export const IntroWrapper: FC = () => {
   return (
     <SectionIntro>
       <Container>
-        <TitleMain>Main</TitleMain>
+        <TitleMain>Main page</TitleMain>
       </Container>
       <CustomStyledContainer>
-        <Img src="bg-image-main.jpg" alt="Girl with phone seeing." />
+        <Img src="/testwork-next/bg-image-main.jpg" alt="Girl with phone seeing." />
       </CustomStyledContainer>
     </SectionIntro>
   );

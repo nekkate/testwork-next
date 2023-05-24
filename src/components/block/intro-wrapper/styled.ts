@@ -3,7 +3,11 @@ import styled from "styled-components";
 import { section } from "@/components/ui/elements/section";
 
 export const SectionIntro = styled(section)`
-  margin-bottom: 174px;
+  margin-bottom: 9%;
+
+  @media (max-width: 550px) {
+    margin-bottom: 10%;
+  };
 `;
 
 export const CustomStyledContainer = styled.div`
