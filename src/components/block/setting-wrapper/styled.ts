@@ -2,7 +2,9 @@ import styled from "styled-components";
 import { section } from "@/components/ui/elements/section";
 import { ul } from "@/components/ui/elements/ul";
 
-export const StyledSection = styled(section)``;
+export const StyledSection = styled(section)`
+margin-bottom: 159px;
+`;
 
 export const StyledContainer = styled.div`
   display: grid;

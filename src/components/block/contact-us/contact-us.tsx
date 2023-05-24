@@ -6,22 +6,23 @@ import {
   StyledListItem,
   StyledSubtitle,
 } from "./styled";
+import Link from "next/link";
 
 export const ContactUs: FC = () => {
   const socialList = [
     {
       name: "VK",
-      link: "/",
+      link: "https://vk.com/neeekkate",
       src: "vk.svg",
     },
     {
       name: "YouTube",
-      link: "/setting",
+      link: "https://www.instagram.com/",
       src: "youtube.svg",
     },
     {
       name: "Telegram",
-      link: "/wallet",
+      link: "https://telegram.org",
       src: "telegram.svg",
     },
   ];
@@ -33,7 +34,8 @@ export const ContactUs: FC = () => {
         {socialList.map((item) => {
           return (
             <StyledListItem key={item.name}>
-              <Image src={item.src} alt={item.name} width={20} height={20} />
+              <Link href={item.link}>
+              <Image src={item.src} alt={item.name} width={20} height={20} /></Link>
             </StyledListItem>
           );
         })}

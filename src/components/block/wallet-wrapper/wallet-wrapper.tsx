@@ -10,7 +10,7 @@ import {
   ITypeIconForm,
   ITypeFormInput,
 } from "../form/types";
-import { StyledUl } from "./styled";
+import { StyledUl, StyledSection } from "./styled";
 import { BalanceForm } from "../form/balance-form";
 
 export const WalletWrapper: FC = () => {
@@ -58,7 +58,7 @@ export const WalletWrapper: FC = () => {
   };
 
   return (
-    <section>
+    <StyledSection>
       <Container>
         <TitleMain>Wallet</TitleMain>
         <StyledUl>
@@ -70,6 +70,6 @@ export const WalletWrapper: FC = () => {
           </Form>
         </StyledUl>
       </Container>
-    </section>
+    </StyledSection>
   );
 };

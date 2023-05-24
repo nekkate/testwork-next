@@ -75,7 +75,7 @@ export const SettingWrapper: FC = () => {
   };
 
   return (
-    <StyledSection as="section">
+    <StyledSection as="main">
       <Container>
         <TitleMain>Setting</TitleMain>
         <StyledUl>
