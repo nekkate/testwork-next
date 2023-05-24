@@ -12,7 +12,7 @@ export const NavBar: FC = () => {
   const navLink = [
     {
       name: "Main",
-      link: "./",
+      link: "/",
     },
     {
       name: "Setting",
